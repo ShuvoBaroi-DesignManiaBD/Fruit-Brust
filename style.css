@@ -1,52 +1,51 @@
 /* =============== Global Styles ============== */
 /* Color palletes */
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 :root{
-    --primary-color: #B68C5A;
-    --heading-color: #414040;
-    --text-color: #707070;
+    --primary-color: #F85559;
+    --heading-color: #121212;
+    --text-color: rgba(18, 18, 18, 0.6);
     --bg-color: #F3F3F3;
+    --border-color: rgba(18, 18, 18, 0.1);
 }
 
 .primary-color{
-    color: #B68C5A;
+    color: var(--primary-color);
 }
 
 .heading-color{
-    color: #414040;
+    color: var(--heading-color);
 }
 
 .text-color{
-    color: #707070;
+    color: var(--text-color);
 }
 
 .bg-color{
-    color: #F3F3F3;
+    color: var(--bg-color);
+}
+
+.border-color{
+    color: var(--border-color)
 }
 
 /* Font Styles */
 .primary-heading{
-    font-family: EB Garamond;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 3rem;
+    font-weight: 700;
     color: var(--heading-color);
 }
 
 .secondary-heading{
-    font-family: EB Garamond;
-    font-size: 32px;
-    font-weight: 800;
-    color: var(--heading-color);
-}
-
-.third-heading{
-    font-family: EB Garamond;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--heading-color);
 }
 
 .text{
-    font-family: poppins;
     font-size: 16px;
     color: var(--text-color)
 }
@@ -57,10 +56,17 @@
     background-color: var(--primary-color);
     padding: 14px 32px;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 800;
 }
 /* Background Styles */
 .hero-bg{
+    background: url(./images/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.team-bg{
     background: url(./images/banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
