@@ -19,7 +19,7 @@
     <main>
         <header>
             <!-- ========= nav area =============-->
-            <div class="navbar lg:bg-[--primary-color] md:container rounded-[600px] mx-auto my-7 flex justify-between lg:px-10 lg:py-4 relative">
+            <div class="navbar lg:bg-[--primary-color] md:container rounded-[600px] mx-auto my-7 flex justify-between lg:px-10 lg:py-4">
                 <div class="menu-area text-white font-semibold order-1 md:order-none">
                     <div>
                         <div class="dropdown text-color">
@@ -30,11 +30,15 @@
                                         d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </label>
                             <ul tabindex="0"
-                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box absolute right-0">
+                                class="menu menu-sm dropdown-content gap-2 mt-3 z-[1] p-2 shadow bg-base-200 rounded-box absolute right-0 w-[90vw] mx-4 shadow-lg">
                                 <li><a>Item 1</a></li>
                                 <li><a>Submenu 1</a></li>
                                 <li><a>Submenu 2</a></li>
                                 <li><a>Item 3</a></li>
+                                <div class="form-control flex justify-center items-center">
+                                    <input type="text" placeholder="Search" class="input input-bordered w-full md:w-auto rounded-[30px]">
+                                    <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute right-5 cursor-pointer">
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -50,9 +54,9 @@
                 <img src="./images/logo (2).webp" alt="logo" class="logo hidden md:block">
                 <img src="./images/logo-mobile.webp" alt="logo for mobile device" class="logo-mobile md:hidden w-52">
                 <div class="flex-none gap-2">
-                    <div class="form-control hidden md:block">
-                        <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto relative rounded-[30px]">
-                        <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute">
+                    <div class="form-control hidden md:flex flex-row justify-center items-center relative">
+                        <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-[30px]">
+                        <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute right-4 cursor-pointer">
                     </div>
                 </div>
             </div>
