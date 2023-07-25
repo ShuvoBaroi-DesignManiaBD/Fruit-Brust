@@ -1,0 +1,68 @@
+/* =============== Global Styles ============== */
+/* Color palletes */
+:root{
+    --primary-color: #B68C5A;
+    --heading-color: #414040;
+    --text-color: #707070;
+    --bg-color: #F3F3F3;
+}
+
+.primary-color{
+    color: #B68C5A;
+}
+
+.heading-color{
+    color: #414040;
+}
+
+.text-color{
+    color: #707070;
+}
+
+.bg-color{
+    color: #F3F3F3;
+}
+
+/* Font Styles */
+.primary-heading{
+    font-family: EB Garamond;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--heading-color);
+}
+
+.secondary-heading{
+    font-family: EB Garamond;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--heading-color);
+}
+
+.third-heading{
+    font-family: EB Garamond;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--heading-color);
+}
+
+.text{
+    font-family: poppins;
+    font-size: 16px;
+    color: var(--text-color)
+}
+
+/* Button Styles */
+.main-button{
+    color: white;
+    background-color: var(--primary-color);
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+/* Background Styles */
+.hero-bg{
+    background: url(./images/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
