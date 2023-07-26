@@ -60,7 +60,7 @@
 }
 /* Background Styles */
 .hero-bg{
-    background: url(./images/banner.webp);
+    background: url(./images/banner1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -69,6 +69,36 @@
 .team-bg{
     background: url(./images/banner.webp);
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Slider BG Images */
+.slider1{
+    background: url(./images/banner1.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    max-width: 100%;
+}
+.slider2{
+    background: url(./images/banner2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+}
+.slider3{
+    background: url(./images/banner3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+}
+.slider4{
+    background: url(./images/banner4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
 }

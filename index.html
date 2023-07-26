@@ -19,7 +19,8 @@
     <main>
         <header>
             <!-- ========= nav area =============-->
-            <div class="navbar lg:bg-[--primary-color] md:container rounded-[600px] mx-auto my-7 flex justify-between lg:px-10 lg:py-4">
+            <div
+                class="navbar lg:bg-[--primary-color] md:container rounded-[600px] mx-auto my-4 md:my-10 flex justify-between lg:px-10 lg:py-4">
                 <div class="menu-area text-white font-semibold order-1 md:order-none">
                     <div>
                         <div class="dropdown text-color">
@@ -31,23 +32,25 @@
                             </label>
                             <ul tabindex="0"
                                 class="menu menu-sm dropdown-content gap-2 mt-3 z-[1] p-2 shadow bg-base-200 rounded-box absolute right-0 w-[90vw] mx-4 shadow-lg">
-                                <li><a>Item 1</a></li>
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Item 3</a></li>
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>All Fruits</a></li>
                                 <div class="form-control flex justify-center items-center">
-                                    <input type="text" placeholder="Search" class="input input-bordered w-full md:w-auto rounded-[30px]">
-                                    <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute right-5 cursor-pointer">
+                                    <input type="text" placeholder="Search"
+                                        class="input input-bordered w-full md:w-auto rounded-[30px]">
+                                    <img src="./images/Frame.webp" alt="search icon"
+                                        class="w-5 absolute right-5 cursor-pointer">
                                 </div>
                             </ul>
                         </div>
                     </div>
                     <div class="hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1">
-                            <li><a>Item 1</a></li>
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                            <li><a>Item 3</a></li>
+                        <ul class="menu menu-horizontal px-1 text-semibold text-base">
+                            <li><a class="hover:text-white">Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,12 +58,102 @@
                 <img src="./images/logo-mobile.webp" alt="logo for mobile device" class="logo-mobile md:hidden w-52">
                 <div class="flex-none gap-2">
                     <div class="form-control hidden md:flex flex-row justify-center items-center relative">
-                        <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-[30px]">
+                        <input type="text" placeholder="Search"
+                            class="input input-bordered w-24 md:w-auto rounded-[30px]">
                         <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute right-4 cursor-pointer">
                     </div>
                 </div>
             </div>
-            
+            <!-- =========== Hero area ========== -->
+            <section class="mx-auto px-4 md:px-0 md:container">
+                <div class="carousel md:mx-auto max-w-full md:w-full h-[300px] md:h-[600px] overflow-y-hidden">
+                    <div id="slide1" class="carousel-item relative container">
+                        <div class="hero relative rounded-xl slider1 container mx-auto">
+                            <div
+                                class="h-full absolute top-0 left-0 right-0 bg-gradient-to-b inset-1 from-[#121212] to-transparent rounded-xl">
+                            </div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="md:max-w-[70%] max-w-[80%] space-y-6">
+                                    <h1 class="mb-5 font-bold md:text-7xl text-3xl text-extrabold text-white">Exotic
+                                        tastes
+                                        at your
+                                        doorstep</h1>
+                                    <p class="mb-5 text text-white">We supply highly quality organic products</p>
+                                    <button class="main-button">Shop Now</button>
+                                </div>
+                                <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                    <a href="#slide1" class="btn btn-circle btn-sm md:btn-md">❮</a>
+                                    <a href="#slide2" class="btn btn-circle btn-sm md:btn-md">❯</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative container">
+                        <div class="hero relative rounded-xl slider2 container mx-auto">
+                            <div
+                                class="h-full absolute top-0 left-0 right-0 bg-gradient-to-b inset-1 from-[#121212] to-transparent rounded-xl">
+                            </div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="md:max-w-[70%] max-w-[80%] space-y-6">
+                                    <h1 class="mb-5 font-bold md:text-7xl text-3xl text-extrabold text-white">Exotic
+                                        Exotic tastes at your doorstep</h1>
+                                    <p class="mb-5 text text-white">We supply highly quality organic products</p>
+                                    <button class="main-button">Shop Now</button>
+                                </div>
+                                <div
+                                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                    <a href="#slide1" class="btn btn-circle btn-sm md:btn-md">❮</a>
+                                    <a href="#slide3" class="btn btn-circle btn-sm md:btn-md">❯</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative container">
+                        <div class="hero relative rounded-xl slider3 container mx-auto">
+                            <div
+                                class="h-full absolute top-0 left-0 right-0 bg-gradient-to-b inset-1 from-[#121212] to-transparent rounded-xl">
+                            </div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="md:max-w-[70%] max-w-[80%] space-y-6">
+                                    <h1 class="mb-5 font-bold md:text-7xl text-3xl text-extrabold text-white">Exotic
+                                        tastes
+                                        at your
+                                        doorstep</h1>
+                                    <p class="mb-5 text text-white">We supply highly quality organic products</p>
+                                    <button class="main-button">Shop Now</button>
+                                </div>
+                                <div
+                                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                    <a href="#slide2" class="btn btn-circle btn-sm md:btn-md">❮</a>
+                                    <a href="#slide4" class="btn btn-circle btn-sm md:btn-md">❯</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative container">
+                        <div class="hero relative rounded-xl slider4 container mx-auto">
+                            <div
+                                class="h-full absolute top-0 left-0 right-0 bg-gradient-to-b inset-1 from-[#121212] to-transparent rounded-xl">
+                            </div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="md:max-w-[70%] max-w-[80%] space-y-6">
+                                    <h1 class="mb-5 font-bold md:text-7xl text-3xl text-extrabold text-white">Exotic
+                                        tastes
+                                        at your
+                                        doorstep</h1>
+                                    <p class="mb-5 text text-white">We supply highly quality organic products</p>
+                                    <button class="main-button">Shop Now</button>
+                                </div>
+                                <div
+                                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                    <a href="#slide3" class="btn btn-circle btn-sm md:btn-md">❮</a>
+                                    <a href="#slide1" class="btn btn-circle btn-sm md:btn-md">❯</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </header>
     </main>
 </body>
