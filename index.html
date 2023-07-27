@@ -18,8 +18,7 @@
 <body>
     <header>
         <!-- ========= nav area =============-->
-        <div
-            class="navbar lg:bg-[--primary-color] sm:container rounded-[600px] mx-auto my-4 sm:my-10 flex justify-between lg:px-10 lg:py-4">
+        <div class="navbar lg:bg-[--primary-color] lg:flex-row md:flex-row-reverse sm:container rounded-[600px] mx-auto my-4 sm:my-10 flex justify-between lg:px-10 lg:py-4">
             <div class="menu-area text-white font-semibold order-1 sm:order-none">
                 <div>
                     <div class="dropdown text-color">
@@ -53,10 +52,10 @@
                     </ul>
                 </div>
             </div>
-            <img src="./images/logo (2).webp" alt="logo" class="logo hidden sm:block">
-            <img src="./images/logo-mobile.webp" alt="logo for mobile device" class="logo-mobile sm:hidden w-52">
-            <div class="flex-none gap-2">
-                <div class="form-control hidden sm:flex flex-row justify-center items-center relative">
+            <img src="./images/logo (2).webp" alt="logo" class="logo hidden lg:block">
+            <img src="./images/logo-mobile.webp" alt="logo for mobile device" class="logo-mobile lg:hidden w-52">
+            <div class="lg:block md:hidden flex-none gap-2">
+                <div class="form-control hidden md:hidden lg:flex sm:flex flex-row justify-center items-center relative">
                     <input type="text" placeholder="Search" class="input input-bordered w-24 sm:w-auto rounded-[30px]">
                     <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute right-4 cursor-pointer">
                 </div>
@@ -154,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-overlap absolute sm:flex hidden justify-evenly p-8 bg-white shadow-xl rounded-lg -mt-[100px] left-0 right-0 w-[75%] mx-auto">
+            <div class="hero-overlap absolute sm:flex hidden justify-evenly p-8 bg-white shadow-xl rounded-lg -mt-[100px] left-0 right-0 lg:w-[75%] md:w-[85%] mx-auto">
                 <div class="grid justify-items-center grid-cols-1 gap-4">
                     <img src="./images/fruit1.webp" alt="">
                     <p class="text-base">Strawberry</p>
@@ -181,8 +180,8 @@
         <!-- =========== Deal of the day ========= -->
         <section class="deal-area container mx-auto flex flex-col sm:py-20 sm:px-0 px-4 py-[50px]">
             <!-- Top area -->
-            <div class="top flex flex-col gap-5 container sm:flex-row justify-between">
-                <div class="top-left-col text-center sm:text-left sm:w-[40%]">
+            <div class="top lg:flex-row md:flex-col flex flex-col gap-5 container sm:flex-row justify-between">
+                <div class="top-left-col text-center lg:text-left lg:w-[40%]">
                     <h2 class="primary-heading">Deal of the day</h2>
                     <p class="text">Contrary to popular belief, is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -220,8 +219,7 @@
                 </div>
             </div>
             <!-- Deal cards area -->
-            <div
-                class="deal-cards-wrap grid sm:grid-cols-4 grid-cols-1 container mx-auto gap-5 justify-between sm:mt-10 mt-5">
+            <div class="deal-cards-wrap grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 container mx-auto gap-5 justify-between sm:mt-10 mt-5">
                 <div class="card bg-base-100 border">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit6.webp" alt="Shoes" class="rounded-xl" />
@@ -537,10 +535,10 @@
         <!-- ===========Meet the team section ========= -->
         <div class="team-wrap hero relative rounded-xl slider1 sm:container max-w-[90vw] mx-auto my-20">
             <div class="bg-[#000] bg-opacity-70 h-full absolute top-0 left-0 right-0 rounded-xl"></div>
-            <div class="hero-content text-center text-neutral-content py-[50px] sm:py-[100px] space-y-0 sm:space-y-4 flex-col">
+            <div class="hero-content text-center text-neutral-content py-[50px] md:px-10 sm:py-[100px] space-y-0 sm:space-y-4 flex-col">
                     <h2 class="font-bold sm:text-7xl text-3xl text-extrabold text-white">Meet the team section</h2>
                     <p class="text sm:max-w-[70%] text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                    <div class="member-wrap pt-6 flex sm:flex-row flex-col justify-evenly sm:gap-5 gap-10 container">
+                    <div class="member-wrap pt-6 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-evenly sm:gap-10 gap-10 container">
                         <div class="member grid grid-cols-1 gap-4 justify-center text-white">
                             <img src="./images/member1.webp" alt="Awlad Hossain" class="mx-auto">
                             <h3 class="text-2xl font-bold text-center">Awlad Hossain</h3>
@@ -590,8 +588,8 @@
         <section class="sm:container mx-auto pb-[100px] px-4 text-center space-y-5">
             <h2 class="primary-heading text-center">Why Choose Us</h2>
             <p class="text sm:w-[40%] sm:mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-            <div class="features-wrap grid sm:grid-cols-3 grid-cols-1 gap-8 pt-10">
-                <div class="left-col sm:order-1 order-2 gap-6 flex flex-col justify-between items-stretch">
+            <div class="features-wrap grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 pt-10">
+                <div class="left-col lg:order-1 md:order-2 order-2 gap-6 flex flex-col justify-between items-stretch">
                     <div class="flex sm:flex-row sm:justify-start sm:items-start flex-col gap-5 justify-center items-center">
                         <img src="./images/dedicated.webp" alt="Dedicated team" class="mt-3">
                         <div class="sm:text-start text-center space-y-2">
@@ -617,8 +615,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="mid-col sm:order-2 order-1">
-                    <img src="./images/whychoose1.webp" alt="Why Choose Us">
+                <div class="mid-col lg:order-2 lg:col-span-1 md:order-1 md:col-span-2 order-1">
+                    <img src="./images/whychoose1.webp" alt="Why Choose Us" class="w-full">
                 </div>
                 <div class="order-3 right-col gap-6 flex flex-col justify-between items-stretch">
                     <div class="flex sm:flex-row-reverse sm:justify-strt sm:items-start flex-col justify-center items-center gap-5">
