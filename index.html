@@ -65,8 +65,8 @@
     </header>
     <main>
         <!-- =========== Hero area ========== -->
-        <section class="hero-wrap mx-auto px-4 md:px-0 md:container">
-            <div class="carousel rounded-xl md:mx-auto max-w-full md:w-full h-[300px] md:h-[600px] overflow-y-hidden">
+        <section class="hero-wrap mx-auto px-4 md:px-0 md:container md:pb-[100px] pb-0">
+            <div class="carousel rounded-xl md:mx-auto max-w-full md:w-full h-[300px] md:h-[600px] overflow-y-hidden relative">
                 <div id="slide1" class="carousel-item relative container">
                     <div class="hero relative rounded-xl slider1 container mx-auto">
                         <div
@@ -154,9 +154,32 @@
                     </div>
                 </div>
             </div>
+            <div class="hero-overlap absolute md:flex hidden justify-evenly p-8 bg-white shadow-xl rounded-lg -mt-[100px] left-0 right-0 w-[75%] mx-auto">
+                <div class="grid justify-items-center grid-cols-1 gap-4">
+                    <img src="./images/fruit1.webp" alt="">
+                    <p class="text-base">Strawberry</p>
+                </div>
+                <div class="grid justify-items-center grid-cols-1 gap-5">
+                    <img src="./images/fruit2.webp" alt="">
+                    <p class="text-base">Orange</p>
+                </div>
+                <div class="grid justify-items-center grid-cols-1 gap-5">
+                    <img src="./images/fruit3.webp" alt="">
+                    <p class="text-base">Strawberry</p>
+                </div>
+                <div class="grid justify-items-center grid-cols-1 gap-5">
+                    <img src="./images/fruit4.webp" alt="">
+                    <p class="text-base">Mango</p>
+                </div>
+                <div class="grid justify-items-center grid-cols-1 gap-5">
+                    <img src="./images/fruit5.webp" alt="">
+                    <p class="text-base">fruits</p>
+                </div>
+            </div>
         </section>
+
         <!-- =========== Deal of the day ========= -->
-        <section class="deal-area container mx-auto flex flex-col md:py-20 md:px-0 px-4 py-14">
+        <section class="deal-area container mx-auto flex flex-col md:py-20 md:px-0 px-4 py-[50px]">
             <!-- Top area -->
             <div class="top flex flex-col gap-5 container md:flex-row justify-between">
                 <div class="top-left-col text-center md:text-left md:w-[40%]">
@@ -565,7 +588,7 @@
         </div>
     </main>
 
-    <footer class="bg-[--heading-color] md:py-[100px] py-[50px] space-y-5">
+    <footer class="bg-[--heading-color] md:py-[100px] py-[50px] space-y-7">
         <img src="./images/logo-white.webp" alt="" class="logo mx-auto">
         <div class="menu">
             <ul class="menu mx-auto menu-horizontal flex justify-center flex-wrap gap-5 px-1 text-semibold text-base text-white">
@@ -577,7 +600,7 @@
                 <a>my account</a>
             </ul>
         </div>
-        <div class="social-icons flex justify-center items-center gap-5">
+        <div class="social-icons flex justify-center items-center gap-7">
             <img src="./images/facebook-white.webp" alt="facebook" class="w-7 h-auto">
             <img src="./images/twitter-white.webp" alt="twitter" class="w-7 h-auto">
             <img src="./images/linkedin-white.webp" alt="linkedin" class="w-7 h-auto">
