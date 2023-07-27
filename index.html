@@ -57,8 +57,7 @@
             <img src="./images/logo-mobile.webp" alt="logo for mobile device" class="logo-mobile md:hidden w-52">
             <div class="flex-none gap-2">
                 <div class="form-control hidden md:flex flex-row justify-center items-center relative">
-                    <input type="text" placeholder="Search"
-                        class="input input-bordered w-24 md:w-auto rounded-[30px]">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-[30px]">
                     <img src="./images/Frame.webp" alt="search icon" class="w-5 absolute right-4 cursor-pointer">
                 </div>
             </div>
@@ -82,7 +81,8 @@
                                 <p class="mb-5 text text-white">We supply highly quality organic products</p>
                                 <button class="main-button">Shop Now</button>
                             </div>
-                            <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <div
+                                class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide1" class="btn btn-circle btn-sm md:btn-md">❮</a>
                                 <a href="#slide2" class="btn btn-circle btn-sm md:btn-md">❯</a>
                             </div>
@@ -156,42 +156,226 @@
             </div>
         </section>
         <!-- =========== Deal of the day ========= -->
-        <section class="deal-area container mx-auto flex flex-column md:py-20 md:px-0 px-4 py-14">
+        <section class="deal-area container mx-auto flex flex-col md:py-20 md:px-0 px-4 py-14">
+            <!-- Top area -->
             <div class="top flex flex-col gap-5 container md:flex-row justify-between">
                 <div class="top-left-col text-center md:text-left md:w-1/2">
                     <h2 class="primary-heading">Deal of the day</h2>
-                    <p class="text">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div class="top-right-col justify-center self-center">
                     <div class="grid grid-flow-col md:gap-4 text-center auto-cols-max justify-between items-center">
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-5xl items-center justify-center">
-                            <span style="--value:29;"></span>
-                          </span>
-                          days
+                            <span class="countdown font-extrabold text-5xl items-center justify-center">
+                                <span style="--value:29;"></span>
+                            </span>
+                            days
                         </div>
                         <img src="./images/3dot.webp" alt="Counter separator" class="-mt-6">
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-5xl">
-                            <span style="--value:15;"></span>
-                          </span>
-                          hours
-                        </div> 
-                        <img src="./images/3dot.webp" alt="Counter separator" class="-mt-6">
-                        <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-5xl">
-                            <span style="--value:25;"></span>
-                          </span>
-                          min
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            hours
                         </div>
                         <img src="./images/3dot.webp" alt="Counter separator" class="-mt-6">
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-5xl">
-                            <span style="--value:08;"></span>
-                          </span>
-                          sec
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:25;"></span>
+                            </span>
+                            min
                         </div>
-                      </div>
+                        <img src="./images/3dot.webp" alt="Counter separator" class="-mt-6">
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold text-5xl">
+                                <span style="--value:08;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Deal cards area -->
+            <div
+                class="deal-cards-wrap grid md:grid-cols-4 grid-cols-1 container mx-auto gap-5 justify-between md:mt-10 mt-5">
+                <div class="card bg-base-100 border max-w-full">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit6.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title secondary-heading border-b-2 py-3 mb-3">12.90$ - 18.85$</h2>
+                        <p class="text mb-3">Apples</p>
+                        <div class="rating rating-md rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="text text-[--primary-color] font-semibold mt-5" onclick="apples.showModal()">Details</button>
+                            <dialog id="apples" class="modal modal-bottom sm:modal-middle sm:max-w-[100vw]">
+                                <form method="dialog" class="modal-box md:p-15">
+                                    <img src="./images/fruit6.webp" alt="Shoes" class="rounded-xl items-center mx-auto" />
+                                    <div class="card-body items-center text-center">
+                                        <h2 class="card-title secondary-heading border-b-2 py-3 mb-3">12.90$ - 18.85$</h2>
+                                        <p class="text mb-3">Apples</p>
+                                        <div class="rating rating-md rating-half">
+                                            <input type="radio" name="rating-10" class="rating-hidden" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] mask mask-star-2 mask-half-2 mr-2" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" checked />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                                            <input type="radio" name="rating-10"
+                                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2" />
+                                        </div>
+                                    </div>
+                                    <div class="modal-action justify-center gap-5">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="main-button bg-transparent text-[--primary-color] border-2 border-[--primary-color]">Close</button>
+                                        <a class="main-button cursor-pointer">Buy now</a>
+                                    </div>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit7.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title secondary-heading border-b-2 py-3 mb-3">12.90$ - 18.85$</h2>
+                        <p class="text mb-3">Apples</p>
+                        <div class="rating rating-md rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <button class="text text-[--primary-color] font-semibold mt-5">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit8.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title secondary-heading border-b-2 py-3 mb-3">12.90$ - 18.85$</h2>
+                        <p class="text mb-3">Apples</p>
+                        <div class="rating rating-md rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <button class="text text-[--primary-color] font-semibold mt-5">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit9.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title secondary-heading border-b-2 py-3 mb-3">12.90$ - 18.85$</h2>
+                        <p class="text mb-3">Apples</p>
+                        <div class="rating rating-md rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2 mr-2" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10"
+                                class="bg-[--primary-color] opacity-25 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <button class="text text-[--primary-color] font-semibold mt-5">Details</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
